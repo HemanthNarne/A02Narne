@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js">   </script>   
+            <script src="JS/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/code.cs">
+	<link rel = "stylesheet"
+   type = "text/css"
+   href = "Narne_hemanth.css" >
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    
+    <title>Hemanth</title>
+	</head>
+	<body>
+	<ul>
+		<li><a href="Narne_Hemanth.html">Home</a></li>
+		<li><a href="Salary.html">Salary</a></li>
+		<li><a href="Contact.html">Contact</a></li>
+		
+	</ul>
+<script>
+
+function calculate(){   
+     var a = parseFloat(frmMain.name.value);
+     var b = parseFloat(frmMain.Salary.value);
+     var c = parseFloat(frmMain.taxrate.value);
+}
+</script>
+</head>
+<body>
+
+    <form name="frmMain">
+       Name/TaxId <input type ="text" id="name" /><br />
+       Salary     <input type ="number" id="Salary" /><br />
+       tax rate   <input type ="number" id="taxrate" /><br />
+       <input type="button" value="calculate" id="submitbutton" />
+      <h1 id="totaltax">Total tax value:</h1>
+    </form>
+</body>
+</html>
+
